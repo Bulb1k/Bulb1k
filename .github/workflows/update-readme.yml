@@ -1,0 +1,42 @@
+name: Update profile README stats
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # щоденно о 07:00 UTC — змінити при потребі
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Update README stats
+        env:
+          GITHUB_USERNAME: "Bulb1k"
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_readme.py
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md || true
+          git commit -m "chore(readme): update stats" || echo "No changes to commit"
+          git push origin HEAD
