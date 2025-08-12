@@ -85,7 +85,7 @@ commits = user["contributionsCollection"]["totalCommitContributions"] or 0
 
 # top languages (by repo count)
 top_langs = sorted(lang_counts.items(), key=lambda x: x[1], reverse=True)[:5]
-top_langs_str = ", ".join(f"{k}_({v})" for k, v in top_langs) if top_langs else "—"
+top_langs_str = "_".join(f"{k}_({v})" for k, v in top_langs) if top_langs else "—"
 
 stats_md = textwrap.dedent(f"""
 ![Static Badge](https://img.shields.io/badge/365%20%D0%94%D0%9D%D0%86%D0%92-white%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logoColor=white&color=white)
