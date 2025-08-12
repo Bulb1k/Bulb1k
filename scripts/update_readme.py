@@ -4,7 +4,6 @@ import requests
 import datetime
 import sys
 import textwrap
-import base64
 
 GITHUB_API = "https://api.github.com/graphql"
 USERNAME = os.environ.get("GITHUB_USERNAME") or "Bulb1k"
@@ -43,29 +42,6 @@ query($login:String!, $from:DateTime!, $to:DateTime!, $after:String) {
   }
 }
 """
-
-# --- ICONS: small lucide-like SVGs (stroke="currentColor") encoded as data URIs ---
-commit_svg = '''
-<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <line x1="3" y1="12" x2="9" y2="12"/>
-  <circle cx="12" cy="12" r="3"/>
-  <line x1="15" y1="12" x2="21" y2="12"/>
-</svg>
-'''.strip()
-
-repo_svg = '''
-<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <path d="M3 7h4l2 3h10v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7z"/>
-</svg>
-'''.strip()
-
-def svg_data_uri(svg_text: str) -> str:
-    b64 = base64.b64encode(svg_text.encode("utf-8")).decode("ascii")
-    return f"data:image/svg+xml;base64,{b64}"
-
-commit_img_md = f"![commit]({svg_data_uri(commit_svg)})"
-repo_img_md = f"![repo]({svg_data_uri(repo_svg)})"
-# -------------------------------------------------------------------------------
 
 total_repos = 0
 total_stars = 0
@@ -111,14 +87,13 @@ commits = user["contributionsCollection"]["totalCommitContributions"] or 0
 top_langs = sorted(lang_counts.items(), key=lambda x: x[1], reverse=True)[:5]
 top_langs_str = ", ".join(f"{k} ({v})" for k, v in top_langs) if top_langs else "—"
 
-# Тут — вставляємо іконки поруч з рядками статистики
 stats_md = textwrap.dedent(f"""
-**Статистика ![Static Badge](https://img.shields.io/badge/365%20%D0%B4%D0%BD%D1%96%D0%B2-grey?style=flat-square)**
 
-- {commit_img_md} Комітів: **{commits}**
-- {repo_img_md} Репозиторіїв (own): **{total_repos}**
-- Загалом зірок (враховано у вибірці): **{total_stars}**
+- Комітів: **{commits}**
+- Репозиторіїв: **{total_repos}**
 - Топ мови: {top_langs_str}
+
+![Static Badge](https://img.shields.io/badge/365%20%D0%B4%D0%BD%D1%96%D0%B2-grey?style=flat-square)
 """).strip()
 
 # replace between markers in README.md
