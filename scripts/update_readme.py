@@ -85,15 +85,13 @@ commits = user["contributionsCollection"]["totalCommitContributions"] or 0
 
 # top languages (by repo count)
 top_langs = sorted(lang_counts.items(), key=lambda x: x[1], reverse=True)[:5]
-top_langs_str = ", ".join(f"{k} ({v})" for k, v in top_langs) if top_langs else "—"
+top_langs_str = ", ".join(f"{k}_({v})" for k, v in top_langs) if top_langs else "—"
 
 stats_md = textwrap.dedent(f"""
-
-- Комітів: **{commits}**
-- Репозиторіїв: **{total_repos}**
-- Топ мови: {top_langs_str}
-
-![Static Badge](https://img.shields.io/badge/365%20%D0%B4%D0%BD%D1%96%D0%B2-grey?style=flat-square)
+![Static Badge](https://img.shields.io/badge/365%20%D0%94%D0%9D%D0%86%D0%92-white%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logoColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/Commits%3A_{commits}-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=comma&logoColor=white&color=grey)
+![Static Badge](https://img.shields.io/badge/REPOSITORIES%3A_{total_repos}-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=bookstack&logoColor=white&color=grey)
+![Static Badge](https://img.shields.io/badge/TOP_LANGUAGES%3A_{top_langs_str}-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=python&logoColor=white&color=grey)
 """).strip()
 
 # replace between markers in README.md
