@@ -24,4 +24,3 @@
 - Топ мови: Python (10), TypeScript (6), JavaScript (1)
 <!-- STATS:END -->
 
-(Файли воркфлоу та скрипт для оновлення README знаходяться в каталозі `.github/workflows` та `scripts`.)
