@@ -4,19 +4,8 @@
 
 ---
 
-#### Мій стек
-
-**Мови та фреймворки**  
-`Python` · `FastAPI` · `Flask` · `Aiogram` · `React` · `JavaScript`
-
-**Бази даних**  
-`PostgreSQL` · `MySQL` · `Redis` · `NoSQL`
-
-**Інструменти та інфраструктура**  
-`Docker` · `Nginx` · `Git` · `SQLAlchemy`
-
-**Автоматизація і тестування**  
-`Playwright` · `Selenium` · `Beautiful Soup` · `PyTest`
+#### Cтек
+[![FastAPI](https://img.shields.io/badge/FastAPI-009485.svg?logo=fastapi&logoColor=white)](#) [![Flask](https://img.shields.io/badge/Flask-000?logo=flask&logoColor=fff)](#) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#) [![Django](https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white)](#)
 
 ---
 
