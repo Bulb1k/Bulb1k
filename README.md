@@ -17,7 +17,7 @@
 
 <!-- STATS:START -->
 
-![Nginx](https://fontawesome.com/icons/code-commit?f=classic&s=solid) Комітів: **396**
+[-](https://github.com/Bulb1k/Bulb1k/blob/main/git-commit.svg) Комітів: **396**
 - Репозиторіїв: **18**
 - Топ мови: Python (10), TypeScript (6), JavaScript (1)
 
