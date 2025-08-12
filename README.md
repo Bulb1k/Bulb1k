@@ -17,9 +17,9 @@
 
 <!-- STATS:START -->
 
-[![MySQL](https://github.com/Bulb1k/Bulb1k/blob/main/git-commit.svg)](#) Комітів: **396**
-- Репозиторіїв: **18**
-- Топ мови: Python (10), TypeScript (6), JavaScript (1)
+![Static Badge](https://img.shields.io/badge/Commits%3A_340-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=comma&logoColor=white&color=grey)
+![Static Badge](https://img.shields.io/badge/REPOSITORIES%3A_13-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=bookstack&logoColor=white&color=grey)
+![Static Badge](https://img.shields.io/badge/TOP_LANGUAGES%3A_13-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=python&logoColor=white&color=grey)
 
 ![Static Badge](https://img.shields.io/badge/365%20%D0%B4%D0%BD%D1%96%D0%B2-grey?style=flat-square)
 <!-- STATS:END -->
