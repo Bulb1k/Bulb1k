@@ -16,9 +16,8 @@
 
 <!-- STATS:START -->
 ![Static Badge](https://img.shields.io/badge/365%20%D0%94%D0%9D%D0%86%D0%92-white%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logoColor=white&color=white)
-![Static Badge](https://img.shields.io/badge/Commits%3A_340-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=comma&logoColor=white&color=grey)
-![Static Badge](https://img.shields.io/badge/REPOSITORIES%3A_13-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=bookstack&logoColor=white&color=grey)
-![Static Badge](https://img.shields.io/badge/TOP_LANGUAGES%3A_13-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=python&logoColor=white&color=grey)
-
+![Static Badge](https://img.shields.io/badge/Commits%3A_407-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=comma&logoColor=white&color=grey)
+![Static Badge](https://img.shields.io/badge/REPOSITORIES%3A_18-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=bookstack&logoColor=white&color=grey)
+![Static Badge](https://img.shields.io/badge/TOP_LANGUAGES%3A_Python_(10), TypeScript_(6), JavaScript_(1)-grey%26logo%3Dgithub%26logoColor%3Dwhite%26Color%3Dwhite?style=for-the-badge&logo=python&logoColor=white&color=grey)
 <!-- STATS:END -->
 
