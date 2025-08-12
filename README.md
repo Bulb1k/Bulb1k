@@ -17,7 +17,7 @@
 
 <!-- STATS:START -->
 
-- Комітів: **396**
+[-](https://fontawesome.com/icons/code-commit?f=classic&s=solid) Комітів: **396**
 - Репозиторіїв: **18**
 - Топ мови: Python (10), TypeScript (6), JavaScript (1)
 
