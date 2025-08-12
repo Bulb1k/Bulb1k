@@ -16,11 +16,11 @@
 ---
 
 <!-- STATS:START -->
-**Статистика ![Static Badge](https://img.shields.io/badge/365%20%D0%B4%D0%BD%D1%96%D0%B2-grey?style=flat-square)**
 
-- ![commit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGFyaWEtaGlkZGVuPSJ0cnVlIj4KICA8bGluZSB4MT0iMyIgeTE9IjEyIiB4Mj0iOSIgeTI9IjEyIi8+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMyIvPgogIDxsaW5lIHgxPSIxNSIgeTE9IjEyIiB4Mj0iMjEiIHkyPSIxMiIvPgo8L3N2Zz4=) Комітів: **396**
-- ![repo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGFyaWEtaGlkZGVuPSJ0cnVlIj4KICA8cGF0aCBkPSJNMyA3aDRsMiAzaDEwdjlhMSAxIDAgMCAxLTEgMUg0YTEgMSAwIDAgMS0xLTFWN3oiLz4KPC9zdmc+) Репозиторіїв (own): **18**
-- Загалом зірок (враховано у вибірці): **1**
+- Комітів: **396**
+- Репозиторіїв: **18**
 - Топ мови: Python (10), TypeScript (6), JavaScript (1)
+
+![Static Badge](https://img.shields.io/badge/365%20%D0%B4%D0%BD%D1%96%D0%B2-grey?style=flat-square)
 <!-- STATS:END -->
 
